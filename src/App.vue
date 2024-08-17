@@ -6,6 +6,6 @@
 </template>
 
 <script setup>
-import TheSidebar from './components/TheSidebar.vue'
-import TheMain from './components/TheMain.vue'
+import TheSidebar from './components/sidebar/TheSidebar.vue'
+import TheMain from './components/main/TheMain.vue'
 </script>

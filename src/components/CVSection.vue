@@ -4,7 +4,7 @@
 
     <ul
       class="mt-3 flex flex-col gap-1 text-pretty text-xs font-medium"
-      v-bind="$attrs"
+      :class="listClass"
       v-if="list.length"
     >
       <li v-for="li in list" :key="li" class="pr-2.5">{{ li }}</li>
@@ -24,6 +24,10 @@ defineProps({
   list: {
     type: Array,
     default: () => []
+  },
+  listClass: {
+    type: String,
+    default: ''
   }
 })
 </script>

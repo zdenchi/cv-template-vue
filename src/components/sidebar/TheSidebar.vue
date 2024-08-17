@@ -11,7 +11,7 @@
       :key="skill.title"
       :title="skill.title"
       :list="skill.children"
-      :class="skill.class"
+      :list-class="skill.class"
     />
   </aside>
 </template>
